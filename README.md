@@ -4,6 +4,10 @@ T-Display ESP32 code to read analog value from Aithre Altus Meso pressure sensor
 # T-Display
 The TFT display should be easier to read in sunlight than the AMOLED display.
 
+The analog inputs can only handle a maximum of 3.3V. Since the Meso sensor delivers up to 4.5V, a voltage divider must be installed. Otherwise, the analog inputs may be damaged. 
+
+I simply used two identical resistors. Since the analog input of the ESP32 converts 12 bits (4095), there is no significant loss of resolution for this application.
+
 # Sensor plug connection
 The Meso sensor is equipped with a 3-pin plug connection. The following female connector fits: “Cable repair kit, pressure switch (air conditioning) Loro 120-00-137”. The contacts must be crimped. 
 
