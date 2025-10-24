@@ -1,7 +1,7 @@
-# T-Display-ESP32---Oxygen-Display
+# T-Display-ESP32 - Oxygen-Display
 T-Display ESP32 code to read analog value from Aithre Altus Meso pressure sensor
 
-# T-Display
+# T-Display - Wiring
 The TFT display should be easier to read in sunlight than the AMOLED display.
 
 The analog inputs can only handle a maximum of 3.3V. Since the Meso sensor delivers up to 4.5V, a voltage divider must be installed. Otherwise, the analog inputs may be damaged. 
