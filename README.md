@@ -1,5 +1,6 @@
 # T-Display-ESP32 - Oxygen-Display
-T-Display ESP32 code to read analog value from Aithre Altus Meso pressure sensor
+T-Display ESP32 code to read analog value from Aithre Altus Meso pressure sensor. 
+GUI was designed in SquareLine Studio 1.5.3
 
 # T-Display - Wiring
 The TFT display should be easier to read in sunlight than the AMOLED display.
@@ -11,6 +12,7 @@ I simply used two identical resistors. Since the analog input of the ESP32 conve
 <img width="799" height="523" alt="image" src="https://github.com/user-attachments/assets/2f48797a-696a-40a9-a2d1-993ee24752df" />
 
 
+The time forecast for the remaining oxygen quantity is based on a regression method, whereby the parameters have not yet been adjusted to the actual pressure drop magnitudes. If no pressure drop is registered for a longer period of time, the theoretical oxygen duration for a requirement at 6000 m is assumed, which is indicated by the label 6K.              
 
 # Sensor plug connection
 The Meso sensor is equipped with a 3-pin plug connection. The following female connector fits: “Cable repair kit, pressure switch (air conditioning) Loro 120-00-137”. The contacts must be crimped. 
