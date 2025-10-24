@@ -2,6 +2,11 @@
 T-Display ESP32 code to read analog value from Aithre Altus Meso pressure sensor. 
 GUI was designed in SquareLine Studio 1.5.3
 
+First setup with 3D printed connector extension and black display background. 
+
+<img width="546" height="509" alt="image" src="https://github.com/user-attachments/assets/5498c1be-9e7f-4d6f-a708-7a7f88e6c0fe" />
+
+
 # T-Display - Wiring
 The TFT display should be easier to read in sunlight than the AMOLED display.
 
