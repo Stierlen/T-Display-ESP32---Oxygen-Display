@@ -2,7 +2,15 @@
 T-Display ESP32 code to read analog value from Aithre Altus Meso pressure sensor
 
 # T-Display
-The TFT display should be easier to read in sunlight than the AMOLED display. 
+The TFT display should be easier to read in sunlight than the AMOLED display.
+
+# Sensor plug connection
+The Meso sensor is equipped with a 3-pin plug connection. The following female connector fits: “Cable repair kit, pressure switch (air conditioning) Loro 120-00-137”. The contacts must be crimped. 
+
+Caution: the contacts can only be inserted from the front. Therefore, first pull the cable through the plug, crimp it with the contact, and only then press it into the plug.
+
+<img width="376" height="323" alt="image" src="https://github.com/user-attachments/assets/36b219e7-6c7d-4bfb-b578-c2c28849acd5" />
+
 
 # IDE Installation and Configuration
 1. Install the Arduino IDE as described.
