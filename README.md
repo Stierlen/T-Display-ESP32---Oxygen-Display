@@ -14,6 +14,8 @@ The analog inputs can only handle a maximum of 3.3V. Since the Meso sensor deliv
 
 I simply used two identical resistors. Since the analog input of the ESP32 converts 12 bits (4095), there is no significant loss of resolution for this application.
 
+
+
 <img width="799" height="523" alt="image" src="https://github.com/user-attachments/assets/2f48797a-696a-40a9-a2d1-993ee24752df" />
 
 
@@ -26,6 +28,9 @@ Caution: the contacts can only be inserted from the front. Therefore, first pull
 
 <img width="376" height="323" alt="image" src="https://github.com/user-attachments/assets/36b219e7-6c7d-4bfb-b578-c2c28849acd5" />
 
+<img width="381" height="342" alt="Loro_2" src="https://github.com/user-attachments/assets/a2a5b96b-6d7b-4062-84ad-851bb5604db7" />
+
+The connector can be kept significantly lower by drilling a hole directly to the side for the cable outlet. The cable should be reinforced in this area using heat-shrink tubing. Once the contacts have been crimped and pressed in, the open area on the back of the plug can be filled with hot glue. To smooth the surface of the pressed-in hot glue, it can be melted and smoothed using a small burner flame.
 
 # IDE Installation and Configuration
 1. Install the Arduino IDE as described.
