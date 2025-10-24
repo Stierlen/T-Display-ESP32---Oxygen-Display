@@ -8,6 +8,10 @@ The analog inputs can only handle a maximum of 3.3V. Since the Meso sensor deliv
 
 I simply used two identical resistors. Since the analog input of the ESP32 converts 12 bits (4095), there is no significant loss of resolution for this application.
 
+<img width="799" height="523" alt="image" src="https://github.com/user-attachments/assets/2f48797a-696a-40a9-a2d1-993ee24752df" />
+
+
+
 # Sensor plug connection
 The Meso sensor is equipped with a 3-pin plug connection. The following female connector fits: “Cable repair kit, pressure switch (air conditioning) Loro 120-00-137”. The contacts must be crimped. 
 
