@@ -45,6 +45,13 @@ The connector can be kept significantly lower by drilling a hole directly to the
 - lvgl library - Version 8.3.0
 
 Check the readme of the lvgl library. The file "lv_conf.h" must be copied to the libraries folder parallel to the lvgl folder.
+Also check in "lv_conf.h"that all neccessary "LV_FONT_MONTSERRAT" - Fonts are enabled by flag 1.
+
+- LV_FONT_MONTSERRAT_14 1
+- LV_FONT_MONTSERRAT_16 1
+- LV_FONT_MONTSERRAT_20 1
+- LV_FONT_MONTSERRAT_30 1
+
 
 5. Select the Board: "ESP32S3 Dev Module"
 6. Select the following Board parameters
