@@ -2,7 +2,7 @@
 #include "ui.h"
 
 // ---------- Hardware & Kalibrierung ----------
-const int   sensorPin     = A10;       // Analog in
+const int   sensorPin     = 10;       // Analog in
 const float druckFaktor   = 0.0795122f;  // bar pro ADC-Count
 
 // ---------- Abtastung ----------
