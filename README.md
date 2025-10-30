@@ -7,7 +7,7 @@ First setup with 3D printed connector extension and black display background.
 <img width="546" height="509" alt="image" src="https://github.com/user-attachments/assets/5498c1be-9e7f-4d6f-a708-7a7f88e6c0fe" />
 
 
-# T-Display - Wiring
+## T-Display - Wiring
 The TFT display should be easier to read in sunlight than the AMOLED display.
 
 The analog inputs can only handle a maximum of 3.3V. Since the Meso sensor delivers up to 4.5V, a voltage divider must be installed. Otherwise, the analog inputs may be damaged. 
@@ -17,11 +17,17 @@ I simply used two identical resistors. Since the analog input of the ESP32 conve
 
 
 <img width="799" height="523" alt="image" src="https://github.com/user-attachments/assets/2f48797a-696a-40a9-a2d1-993ee24752df" />
+<br>
+
+
+<img width="186" height="310" alt="image" src="https://github.com/user-attachments/assets/5d2f9d75-e90f-4bd3-81da-4af690e826f8" />
+
+<img width="344" height="298" alt="image" src="https://github.com/user-attachments/assets/d6c47360-1114-4560-95dc-9c8b86c043c4" />
 
 
 The time forecast for the remaining oxygen quantity is based on a regression method, whereby the parameters have not yet been adjusted to the actual pressure drop magnitudes. If no pressure drop is registered for a longer period of time, the theoretical oxygen duration for a requirement at 6000 m is assumed, which is indicated by the label 6K.              
 
-# Sensor plug connection
+## Sensor plug connection
 The Meso sensor is equipped with a 3-pin plug connection. The following female connector fits: “Cable repair kit, pressure switch (air conditioning) Loro 120-00-137”. The contacts must be crimped. 
 
 Caution: the contacts can only be inserted from the front. Therefore, first pull the cable through the plug, crimp it with the contact, and only then press it into the plug.
@@ -32,7 +38,7 @@ Caution: the contacts can only be inserted from the front. Therefore, first pull
 
 The connector can be kept significantly lower by drilling a hole directly to the side for the cable outlet. The cable should be reinforced in this area using heat-shrink tubing. Once the contacts have been crimped and pressed in, the open area on the back of the plug can be filled with hot glue. To smooth the surface of the pressed-in hot glue, it can be melted and smoothed using a small burner flame.
 
-# IDE Installation and Configuration
+## IDE Installation and Configuration
 1. Install the Arduino IDE as described.
 2. Add the folowing links in the IDE at line: "Additional boards managers URLs:".
    
@@ -60,7 +66,7 @@ Also check in "lv_conf.h" that all neccessary "LV_FONT_MONTSERRAT" - Fonts are e
 7. Connect your T-Display to your PC
 8. Choose the PORT connected to the T-Display
 
-# Program adaptation 
+## Program adaptation 
 1. Open "O2_display.ino"
 2. Change the relevant parameters due to your requirements
   - sensorPin - Change to the number of the analog Input Pin you want to use on your display
@@ -70,7 +76,7 @@ Also check in "lv_conf.h" that all neccessary "LV_FONT_MONTSERRAT" - Fonts are e
   - BAR_FULL_SCALE_BAR - Bar size corrrelation to max. pressure
   - analogWrite(38, 220); - brightness value (max. 255)
 
-# Program Upload
+## Program Upload
 1. Connect your Display to the selected Port
 2. On the T-Display board press the UPLOAD BUTTON first and then the RESET BUTTON. Release the buttons again and the T-Display should now be in Uplode mode.
 3. In the IDE -> Press the UPLOAD BUTTON. The code should now be transfered to the board.
