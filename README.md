@@ -40,6 +40,10 @@ Caution: the contacts can only be inserted from the front. Therefore, first pull
 The connector can be kept significantly lower by drilling a hole directly to the side for the cable outlet. The cable should be reinforced in this area using heat-shrink tubing. Once the contacts have been crimped and pressed in, the open area on the back of the plug can be filled with hot glue. To smooth the surface of the pressed-in hot glue, it can be melted and smoothed using a small burner flame.
 
 <img width="241" height="474" alt="image" src="https://github.com/user-attachments/assets/9bb6fcd8-5ceb-4865-8d55-38d18b27074e" />
+<img width="503" height="406" alt="image" src="https://github.com/user-attachments/assets/a86d5f76-0afb-476b-baf9-9ed68236a0cf" />
+<img width="485" height="420" alt="image" src="https://github.com/user-attachments/assets/2d5ced4f-a4be-4f43-92e5-96da7ae43710" />
+
+
 
 
 
