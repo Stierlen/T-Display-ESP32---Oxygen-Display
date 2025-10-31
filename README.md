@@ -19,11 +19,12 @@ I simply used two identical resistors. Since the analog input of the ESP32 conve
 <img width="799" height="523" alt="image" src="https://github.com/user-attachments/assets/2f48797a-696a-40a9-a2d1-993ee24752df" />
 <br>
 
-
 <img width="186" height="310" alt="image" src="https://github.com/user-attachments/assets/5d2f9d75-e90f-4bd3-81da-4af690e826f8" />
 
 <img width="344" height="298" alt="image" src="https://github.com/user-attachments/assets/d6c47360-1114-4560-95dc-9c8b86c043c4" />
-
+<br>
+<img width="432" height="576" alt="image" src="https://github.com/user-attachments/assets/c80c7bdf-f6d1-4ffa-a55f-e7e1e3c7feca" />
+<br>
 
 The time forecast for the remaining oxygen quantity is based on a regression method, whereby the parameters have not yet been adjusted to the actual pressure drop magnitudes. If no pressure drop is registered for a longer period of time, the theoretical oxygen duration for a requirement at 6000 m is assumed, which is indicated by the label 6K.              
 
@@ -34,9 +35,13 @@ Caution: the contacts can only be inserted from the front. Therefore, first pull
 
 <img width="376" height="323" alt="image" src="https://github.com/user-attachments/assets/36b219e7-6c7d-4bfb-b578-c2c28849acd5" />
 
-<img width="381" height="342" alt="Loro_2" src="https://github.com/user-attachments/assets/a2a5b96b-6d7b-4062-84ad-851bb5604db7" />
+<img width="307" height="384" alt="image" src="https://github.com/user-attachments/assets/0d669626-4339-4ca2-b167-728c9990d870" />
 
 The connector can be kept significantly lower by drilling a hole directly to the side for the cable outlet. The cable should be reinforced in this area using heat-shrink tubing. Once the contacts have been crimped and pressed in, the open area on the back of the plug can be filled with hot glue. To smooth the surface of the pressed-in hot glue, it can be melted and smoothed using a small burner flame.
+
+<img width="241" height="474" alt="image" src="https://github.com/user-attachments/assets/9bb6fcd8-5ceb-4865-8d55-38d18b27074e" />
+
+
 
 ## IDE Installation and Configuration
 1. Install the Arduino IDE as described.
